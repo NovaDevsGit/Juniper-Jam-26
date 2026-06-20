@@ -1,13 +1,13 @@
-if keyboard_check(ord("J"))
+if keyboard_check(vk_left)
 {
-	global.angle -- ;
+	avel -= turnspeed;
 }
-if keyboard_check(ord("L"))
+if keyboard_check(vk_right)
 {
-	global.angle ++ ;
+	avel += turnspeed;
 }
 
+global.angle += avel;
+avel *= 0.8;
 
 camera_set_view_angle(cam,-global.angle);
-
-
