@@ -6,5 +6,5 @@
 
 
 
-speed = 5;
+speed = 3;
 gravity = 0.1;

@@ -21,4 +21,4 @@
 move_bounce_solid(false);
 
 
-gravity_direction = gravity_direction + 1;
+gravity_direction = global.angle-90;
