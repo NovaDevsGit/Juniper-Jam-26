@@ -21,4 +21,11 @@
 move_bounce_solid(false);
 
 
-gravity_direction = global.angle-90;
+
+physics_world_gravity(cos(degtorad(global.angle) )*5,sin(degtorad(global.angle) )*5);
+//arctan2()
+//tan(global.angle)
+
+
+
+//gravity_direction = global.angle-90;

@@ -19,7 +19,11 @@ hsp = hsp + (grv * down_x);
 //Work out if we should jump
 if (canJump-- > 0) && (_keyJump)
 {
+<<<<<<< HEAD
 	hsp = vspJump * down_x;
+=======
+    hsp = vspJump * down_x;
+>>>>>>> b0ef66b687e4b14a5261b6a81114ce30162da635
     vsp = vspJump * down_y;
     canJump = 0;
 }
@@ -56,8 +60,15 @@ if (onGround) && (place_meeting(x + abs(vsp) + 1, y, oWall)) && (hsp >= 0)
 
 if (keyboard_check_pressed(vk_add))
 {
+<<<<<<< HEAD
 	with (oSlope)
 	{
 		image_angle = image_angle + 5;
 	}
+=======
+    with (oSlope)
+    {
+        image_angle = image_angle + 5;
+    }
+>>>>>>> b0ef66b687e4b14a5261b6a81114ce30162da635
 }
