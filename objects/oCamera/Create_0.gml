@@ -3,6 +3,8 @@
 
 global.angle = 0;
 
+
+
 cam = camera_create_view(0, 0, global.screenw, global.screenh);
 
 view_camera[0] = cam;
