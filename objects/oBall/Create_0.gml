@@ -4,6 +4,7 @@
 //grv = 0.1;
 
 
+bounceDecay = 0.1; // the loss of velocity when bouncing
 
 
 speed = 3;

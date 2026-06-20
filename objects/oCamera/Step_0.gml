@@ -12,6 +12,6 @@ if keyboard_check(ord("L"))
 }
 
 
-camera_set_view_angle(cam,-global.angle);
+//camera_set_view_angle(cam,-global.angle);
 
 
