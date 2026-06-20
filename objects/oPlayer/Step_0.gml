@@ -1,3 +1,7 @@
+// Compute down direction
+down_x = sin(global.angle);
+down_y = cos(global.angle);
+
 //Get inputs
 var _keyRight = keyboard_check(vk_right);
 var _keyLeft = keyboard_check(vk_left);
@@ -9,7 +13,8 @@ slopeOn = keyboard_check(vk_control);
 hsp = (_keyRight - _keyLeft) * hspWalk;
  
 //Work out where to move vertically
-vsp = vsp + grv;
+vsp = vsp + (grv * down_y);
+hsp = hsp + (grv * down_x);
  
 //Work out if we should jump
 if (canJump-- > 0) && (_keyJump)

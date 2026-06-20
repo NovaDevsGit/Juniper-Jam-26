@@ -1,7 +1,3 @@
-
-
-
-
 if keyboard_check(ord("J"))
 {
 	global.angle -- ;
