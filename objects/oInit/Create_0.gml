@@ -8,4 +8,4 @@ window_center();
 global.screenw = screenw;
 global.screenh = screenh;
 
-room_goto(Room1);
+room_goto(r1);

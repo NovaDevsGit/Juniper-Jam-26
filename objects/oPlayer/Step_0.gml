@@ -2,6 +2,8 @@
 down_x = sin(degtorad(global.angle));
 down_y = cos(degtorad(global.angle));
 
+
+
 //Get inputs
 //var _keyRight = keyboard_check(vk_right);
 //var _keyLeft = keyboard_check(vk_left);
@@ -20,14 +22,9 @@ hsp = hsp + (grv * down_x);
 if (canJump-- > 0) && (_keyJump)
 {
 
-	hsp = vspJump * down_x;
+	hsp = hsp + (vspJump * down_x);
 
-    hsp = vspJump * down_x;
-
-
-    hsp = vspJump * down_x;
-
-    vsp = vspJump * down_y;
+    vsp = vsp + (vspJump * down_y);
     canJump = 0;
 }
  
@@ -61,17 +58,14 @@ if (onGround) && (place_meeting(x + abs(vsp) + 1, y, oWall)) && (hsp >= 0)
     hsp += abs(vsp) + 1;
 }
 
-if (keyboard_check_pressed(vk_add))
+if (keyboard_check(ord("J")))
 {
-
-	with (oSlope)
-	{
-		image_angle = image_angle + 5;
-	}
-
-    with (oSlope)
-    {
-        image_angle = image_angle + 5;
-    }
-
+	global.angle --;
 }
+if (keyboard_check(ord("L")))
+{
+	global.angle ++;
+}
+
+
+	
