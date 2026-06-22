@@ -35,7 +35,7 @@ onGround = place_meeting(x + down_x, y + down_y, oWall);
 var _hCol = move_and_collide(hsp, 0, oWall, abs(hsp) + 1, hsp, vsp, hsp, vsp)
 if (array_length(_hCol)  > 0)
 {
-    if (hsp > 0) canJump = 10;
+    if (onGround) canJump = 10;
     hsp *= -0.5;
 }
  
@@ -43,7 +43,7 @@ if (array_length(_hCol)  > 0)
 var _vCol = move_and_collide(0, vsp, oWall, abs(vsp) + 1, hsp, vsp, hsp, vsp)
 if (array_length(_vCol)  > 0)
 {
-    if (vsp > 0) canJump = 10;
+    if (onGround) canJump = 10;
     vsp *= -0.5;
 }
 
