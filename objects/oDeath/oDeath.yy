@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oLevelClear",
+  "%Name":"oDeath",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLevelClear",
+  "name":"oDeath",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWheel",
-    "path":"sprites/sWheel/sWheel.yy",
+    "name":"sDeath",
+    "path":"sprites/sDeath/sDeath.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

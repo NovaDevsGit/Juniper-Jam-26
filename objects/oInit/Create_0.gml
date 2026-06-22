@@ -1,5 +1,5 @@
-screenw = 320;
-screenh = 240;
+screenw = 480;
+screenh = 360;
 wndscale = 2;
 
 window_set_size(screenw * wndscale, screenh * wndscale);
