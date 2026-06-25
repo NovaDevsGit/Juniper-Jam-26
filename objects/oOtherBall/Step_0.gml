@@ -7,7 +7,7 @@ down_y = cos(degtorad(global.angle));
 //Get inputs
 //var _keyRight = keyboard_check(vk_right);
 //var _keyLeft = keyboard_check(vk_left);
-var _keyJump = keyboard_check_pressed(vk_space);
+//var _keyJump = keyboard_check_pressed(vk_space);
  
 //slopeOn = keyboard_check(vk_control);
  
@@ -19,14 +19,14 @@ vsp = vsp + (grv * down_y);
 hsp = hsp + (grv * down_x);
  
 //Work out if we should jump
-if (canJump-- > 0) && (_keyJump)
-{
+//if (canJump-- > 0) && (_keyJump)
+//{
 
-	hsp = hsp + (vspJump * down_x);
+//	hsp = hsp + (vspJump * down_x);
 
-    vsp = vsp + (vspJump * down_y);
-    canJump = 0;
-}
+//    vsp = vsp + (vspJump * down_y);
+//    canJump = 0;
+//}
  
 //Are we on the ground?
 onGround = place_meeting(x + down_x, y + down_y, oWall);
@@ -58,14 +58,14 @@ if (onGround) && (place_meeting(x + abs(vsp) + 1, y, oWall)) && (hsp >= 0)
     hsp += abs(vsp) + 1;
 }
 
-if (keyboard_check(ord("A")))
-{
-	global.angle --;
-}
-if (keyboard_check(ord("D")))
-{
-	global.angle ++;
-}
+//if (keyboard_check(ord("J")))
+//{
+//	global.angle --;
+//}
+//if (keyboard_check(ord("L")))
+//{
+//	global.angle ++;
+//}
 
 
 	
