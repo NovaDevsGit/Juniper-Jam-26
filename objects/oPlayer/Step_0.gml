@@ -43,7 +43,7 @@ if (array_length(_hCol)  > 0)
 var _vCol = move_and_collide(0, vsp, oWall, abs(vsp) + 1, hsp, vsp, hsp, vsp)
 if (array_length(_vCol)  > 0)
 {
-    if (onGround) canJump = 10;
+    if (onGround) canJump = 20;
     vsp *= -0.5;
 }
 

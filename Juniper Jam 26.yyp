@@ -74,8 +74,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"RoomInit","path":"rooms/RoomInit/RoomInit.yy",},},
     {"roomId":{"name":"r1","path":"rooms/r1/r1.yy",},},
-    {"roomId":{"name":"r3","path":"rooms/r3/r3.yy",},},
     {"roomId":{"name":"r2","path":"rooms/r2/r2.yy",},},
+    {"roomId":{"name":"r3","path":"rooms/r3/r3.yy",},},
     {"roomId":{"name":"r4","path":"rooms/r4/r4.yy",},},
     {"roomId":{"name":"r5","path":"rooms/r5/r5.yy",},},
     {"roomId":{"name":"r6","path":"rooms/r6/r6.yy",},},
