@@ -35,7 +35,7 @@ onGround = place_meeting(x + down_x, y + down_y, oWall);
 var _hCol = move_and_collide(hsp, 0, oWall, abs(hsp) + 1, hsp, vsp, hsp, vsp)
 if (array_length(_hCol)  > 0)
 {
-    if (onGround) canJump = 10;
+    if (onGround) canJump = 20;
     hsp *= -0.5;
 }
  
@@ -46,6 +46,8 @@ if (array_length(_vCol)  > 0)
     if (onGround) canJump = 20;
     vsp *= -0.5;
 }
+
+
 
 //Walk down slope
 if (onGround) && (place_meeting(x,y + abs(hsp) + 1 ,oWall)) && (vsp >= 0)
@@ -60,12 +62,20 @@ if (onGround) && (place_meeting(x + abs(vsp) + 1, y, oWall)) && (hsp >= 0)
 
 if (keyboard_check(ord("A")))
 {
-	global.angle --;
+	global.angle = global.angle - 1.3;
 }
 if (keyboard_check(ord("D")))
 {
-	global.angle ++;
+	global.angle = global.angle + 1.3;
 }
 
+if (keyboard_check(ord("Q")))
+{
+	global.angle = global.angle - 0.3;
+}
+if (keyboard_check(ord("E")))
+{
+	global.angle = global.angle + 0.3;
+}
 
 	
