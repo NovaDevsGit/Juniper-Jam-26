@@ -68,6 +68,7 @@
     {"id":{"name":"sSpikedPlatform","path":"sprites/sSpikedPlatform/sSpikedPlatform.yy",},},
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},
     {"id":{"name":"sText","path":"sprites/sText/sText.yy",},},
+    {"id":{"name":"sText2","path":"sprites/sText2/sText2.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"sTileSet_1","path":"sprites/sTileSet_1/sTileSet_1.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
