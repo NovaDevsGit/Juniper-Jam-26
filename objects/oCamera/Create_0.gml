@@ -5,7 +5,7 @@ global.angle = 0;
 avel = 0;
 turnspeed = 0.5;
 
-
+par = 50; // parralax effect
 
 
 
