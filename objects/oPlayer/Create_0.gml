@@ -12,3 +12,6 @@ down_x = 0; // Down vector x component
 down_y = 1; // Down vector y component
 
 target = r2; // the room the player goes to when they reach their goal
+
+
+dead = false;

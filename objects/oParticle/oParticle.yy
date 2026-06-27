@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oDeath",
-  "eventList":[],
+  "%Name":"oParticle",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oDeath",
+  "name":"oParticle",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDeath",
-    "path":"sprites/sDeath/sDeath.yy",
+    "name":"sParticle",
+    "path":"sprites/sParticle/sParticle.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
